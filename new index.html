@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Webpage</title>
+<link rel="stylesheet" href="styles52.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+<nav class="navbar">
+    <div class="logo"><a style="color:white;" href="getapp.html">Get the app</a></div>
+    <button class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </button>
+    <ul class="nav-links">
+        <li><a href="#home"><a style="color:white;" href="investor.html">Investor Relations</a></li>
+        <li><a href="#about"><a style="color:white;" href="addresto.html">Add Restaurant</a></li>
+        <li><a href="#services"><a style="color:white;" href="signin.html">Log in</a></li>
+        <li><a href="#contact"><a style="color:white;" href="signup.html">Sign in</a></li>
+    </ul>
+</nav>
+<header class="hero">
+    <img src="" alt="Hero Image" class="hero-image">
+    <div class="hero-text">
+        <h1>Zomato</h1>
+        <p>Discover the best food and drinks in Mumbai</p>
+  
+    <div class="overlay"></div>
+    <div class="hero-content">
+        
+        <div class="search-bar">
+           <a href="www.google.in"> <input type="text" id="search" placeholder="Search..."></a>
+           <a href="www.googlemap.in">  <input type="text" id="location" placeholder="Location..."></a>
+            <button type="submit" onclick="submitSearch()">Search</button>
+        </div>
+    </div>
+    </div>
+</header>
+<main>
+    <div class="polaroid-gallery">
+        <div class="polaroid">
+          <img src="th.jfif" alt="Polaroid 1">
+          <b><p>Order Online</p></b>
+          <p>Stay home and order to your doorstep</p>
+        </div>
+        <div class="polaroid">
+          <img src="th (3).jfif" alt="Polaroid 2">
+         <b> <p>Dining</p></b>
+          <p>View the citys favourite dining venues</p>
+        </div>
+        <div class="polaroid">
+          <img src="th (6).jfif" alt="Polaroid 3">
+         <b> <p>Live events</p></b>
+          <p>Discover india's best events and concerts</p>
+        </div>
+      </div>
+    <section id="about">
+        <h2 id="h2">About Us</h2>
+        <p id="p2">Information about the website or company goes here.</p>
+        <div class="image-container">
+            <div class="image-item"><a href="dinig.html">
+                <img src="th (2).jfif" alt="Image 1" style="height:280px;">
+                <div class="image-caption">Newly Opened Spaces</div></a>
+            </div>
+            <div class="image-item"><a href="trending.html">
+                <img src="th (1).jfif" alt="Image 2" style="height:280px;">
+                <div class="image-caption">Top Trending Spots</div></a>
+            </div>
+            <div class="image-item"><a href="insta.html">
+                <img src="th (5).jfif" alt="Image 3" style="height: 280px;">
+                <div class="image-caption">Best Insta-worthy places</div>
+            </div></a>
+            <div class="image-item"><a href="rooftop.html">
+                <img src="th (4).jfif" alt="Image 4" style="height: 280px;">
+                <div class="image-caption">Best Rooftop Places</div>
+            </div></a>
+        </div>
+    </section>
+    <h2 id="h3">Popular localities in and around Mumbai</h2>
+    <div class="grid-container">
+      <div id="d11"><a href="www.zomato.in">Lower Parel<br>676 Places</div></a>
+      <div id="d21"><a href="www.zomato.in">Powai<br>432 Places</div></a>
+      <div id="d3"><a href="www.zomato.in">Malad west <br>932 Places</div></a>
+      <div id="d11"><a href="www.zomato.in">Borivali west <br> 673 places</div></a>
+      <div id="d21"><a href="www.zomato.in">Bandra Curla Complex <br> 162 Places</div></a>
+      <div id="d3"><a href="www.zomato.in">Vashi <br> 652 Places</div></a>
+      <div id="d11"><a href="www.zomato.in">Fort<br>280 Places</div></a>
+      <div id="d21"><a href="www.zomato.in">juhu<br>241 Places</div></a>
+      <div id="d3"><a href="www.zomato.in">See More</div></a></div>
+      <div class="container1">
+        <div class="left-section">
+            <img src="https://via.placeholder.com/150" alt="Placeholder Image" class="image1">
+        </div>
+        
+        <div class="right-section">
+            <h1>Responsive Layout</h1>
+            <p>This is a responsive page with an image on the left and form elements on the right. You can enter an email, search, and interact with the radio buttons.</p>
+            
+            <div class="radio-buttons">
+                <label><input type="radio" name="option" value="option1"> Option 1</label>
+                <label><input type="radio" name="option" value="option2"> Option 2</label>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter your email" required><button class="btn">Get Link</button>
+            </div>
+            
+          
+            
+           
+
+            <div class="app-buttons">
+                <button class="app-btn">Google Play</button>
+                <button class="app-btn">Play Store</button>
+            </div>
+        </div>
+    </div>
+    <h3 id="h4" style="margin-top: 150px;font-size: 35px;margin-left: 10px;">Explore options near me</h3>
+    <button type="button" class="collapsible" style="margin-left: 50px;background-color:rgba(255, 255, 255, 0.822);color:black;border-style: 2px gray;font-size: large;">Popular Cuisines Near Me</button>
+    <div class="content">
+      <p>Bakery food near meBeverages food near meBiryani food near meBurger food near meChinese food near meDesserts food near meIce Cream food near meKebab food near meMaharashtrian food near meMomos food near meMughlai food near meNorth Indian food near mePizza food near meRolls food near meSandwich food near meSeafood food near meShake food near meSichuan food near meSouth Indian food near meStreet food near me</p>
+    </div>
+    <button type="button" class="collapsible" style="margin-left: 50px;background-color:rgba(255, 255, 255, 0.822);color:black;border-style: 2px gray;font-size: large;">Popular Restaurant Types Near Me</button>
+    <div class="content">
+      <p>Bakeries near meBars near meBeverage Shops near meBhojanalya near meCafés near meCasual Dining near meClubs near meCocktail Bars near meConfectioneries near meDessert Parlors near meDhabas near meFine Dining near meFood Courts near meFood Trucks near meIrani Cafes near meKiosks near meLounges near meMicrobreweries near mePaan Shop near mePubs near meQuick Bites near meShacks near meSweet Shops near me</p></div>
+    <button type="button" class="collapsible" style="margin-left: 50px;background-color:rgba(255, 255, 255, 0.822);color:black;border-style: 2px gray;font-size: large;">Top Restaurant chains</button>
+    <div class="content">
+      <p style="margin-left: 30px;"><a href=""style="text-decoration:none;margin-left:50px;font-size:large;">Bikanervala</a><a href=""style="text-decoration:none;margin-left:50px;font-size:large;">Biryani Blues</a><a href=""style="text-decoration:none;margin-left:50px;font-size:large;">Buger king</a><a href=""style="text-decoration:none;margin-left:50px;font-size:large;">Dominos</a><a href=""style="text-decoration:none;margin-left:50px;font-size:large;">Dunkin's Donuts</a><br><br>
+        <a href=""style="text-decoration:none;margin-left:50px;font-size:large;">KFC</a><a href=""style="text-decoration:none;margin-left:90px;font-size:large;">Crispy Creme</a><a href=""style="text-decoration:none;margin-left:50px;font-size:large;">McDonald's</a><a href=""style="text-decoration:none;margin-left:50px;font-size:large">Pizza Hut</a><a href=""style="text-decoration:none;margin-left:50px;font-size:large;">Wow's Momo</a></p></div>
+    <button type="button" class="collapsible" style="margin-left: 50px;background-color:rgba(255, 255, 255, 0.822);color:black;border-style: 2px gray;font-size: large;">Cities We delever to</button>
+    <div class="content">
+      <ul><li><a href=""style="text-decoration:none;margin-left:50px;font-size:large">Delhi NCR</a></li>
+        <li><a href=""style="text-decoration:none;margin-left:50px;font-size:large">Hyderabad</a></li>
+          <li><a href=""style="text-decoration:none;margin-left:50px;font-size:large">Ahemdabad</a></li>
+            <li><a href=""style="text-decoration:none;margin-left:50px;font-size:large">Nashik</a></li>
+            <li><a href=""style="text-decoration:none;margin-left:50px;font-size:large">Amritsar</a></li>
+            <li><a href=""style="text-decoration:none;margin-left:50px;font-size:large">Ranchi</a></li>
+            <li><a href=""style="text-decoration:none;margin-left:50px;font-size:large">Vadodara</a></li>
+            <li><a href=""style="text-decoration:none;margin-left:50px;font-size:large">Pudducherry</a></li>
+            <li><a href=""style="text-decoration:none;margin-left:50px;font-size:large">Shrinagar</a></li>
+            <li><a href=""style="text-decoration:none;margin-left:50px;font-size:large">Haridwar</a></li>
+            <li><a href=""style="text-decoration:none;margin-left:50px;font-size:large">Kozikode</a></li>
+            <li><a href=""style="text-decoration:none;margin-left:50px;font-size:large">Jodhpur</a></li>
+            <li><a href=""style="text-decoration:none;margin-left:50px;font-size:large">Jalandhar</a></li></ul>
+    
+    <ul style="margin-top: -300px;margin-left: 250px;">
+    <li>   <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Kolkata</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Chennai</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Chandigrah</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Ooty</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Kanpur</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Vishakhapattanam</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Nagpur</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Surat</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Khajuraho</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Leh</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Alapuzzaho</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Kota</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Jammu</a></li>
+    
+    </ul>
+    <ul style="margin-top: -290px;margin-left: 550px;">
+      <li>   <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Mumbai</a>  </li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Lakhnow</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Goa</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Shimla</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Alahabad</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Bhubaneshwar</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Aagra</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Varanasi</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Nimrana</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Pushkar</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Thirusarr</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Ajmer</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Manali</a></li>
+    </ul>
+    <ul style="margin-top: -290px;margin-left:750px;">
+      <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Bengluru</a>  </li>
+      <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Kochi</a>  </li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Indore</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Ludhiana</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Coimbtoor</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Aurangabad</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Deharadun</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Patana</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Cattack</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Rajkot</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Manipal</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Massooriee</a></li>
+    <li>    <a href=""style="margin-left:50px;font-size:large">All Delevery Cities</a></li>
+    </ul>
+    <ul style="margin-top: -290px;margin-left: 1000px;">
+      <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Pune</a>  </li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Jaipur</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Gangtok</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Guwahati</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Bhopal</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Manglore</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Maysore</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Udaypur</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Trivandrum</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Madurai</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Vijaywada</a></li>
+    <li>    <a href=""style="text-decoration:none;margin-left:50px;font-size:large">Hrishikesh</a></li>
+     </ul>
+    </div>
+    </div>
+    <div class="logo1">
+        <img src="zomatooo.jpeg" alt="Logo">
+    </div>
+    <div class="top-buttons">
+        <button class="btn">Button 1</button>
+        <button class="btn">Button 2</button>
+    </div>
+
+    <section class="contact-info">
+     
+        <div class="contact-columns">
+            <div class="column">
+                <h2>About Zomato</h2>
+                <p><a href=""></a></p>
+                <p><a href=""></a></p>
+                <p><a href=""></a></p>
+                <p><a href=""></a></p>
+                <p><a href=""></a></p>
+                <p><a href=""></a></p>
+                <p><a href=""></a></p>
+            </div>
+
+            <div class="column">
+                <h2>Zomaverse</h2>
+                <p><a href=""></a></p>
+                <p><a href=""></a></p>
+                <p><a href=""></a></p>
+                <p><a href=""></a></p>
+                <p><a href=""></a></p>
+                <p><a href=""></a></p>
+                <p><a href=""></a></p>
+                <p><a href=""></a></p>
+            </div>
+
+            <div class="column">
+                <h2>For Restaurant</h2>
+                <p><a href=""></a></p>
+                <p><a href=""></a></p>
+            </div>
+
+            <div class="column">
+                <h2>Learn More</h2>
+                <p><a href=""></a></p>
+                <p><a href=""></a></p>
+                <p><a href=""></a></p>
+            </div>
+            <div class="column">
+            <div class="container">
+                <div class="social-links">
+                    <a href="#" class="social-link">
+                        <img src="linked.jpg" alt="Google" class="social-icon">
+                    </a>
+                    <a href="#" class="social-link">
+                        <img src="insta.jpg" alt="Facebook" class="social-icon">
+                    </a>
+                    <a href="#" class="social-link">
+                        <img src="x.jpg" alt="Twitter" class="social-icon">
+                    </a>
+                    <a href="#" class="social-link">
+                        <img src="yt.jpg" alt="Instagram" class="social-icon">
+                    </a>
+                    <a href="#" class="social-link">
+                        <img src="fb.jpg" alt="LinkedIn" class="social-icon">
+                    </a>
+                </div>
+        
+                <div class="buttons">
+                    <button class="btn">Button 1</button>
+                    <button class="btn">Button 2</button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Your Company</p>
+
+    <div id="d5" style="border-top: 1px dotted gray;margin-top: 100px;margin-left: 100px;margin-right: 100px;">
+      <p>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2024 © Zomato™ Ltd. All rights reserved.</p>
+    </div></div>
+</main>
+
+</body>
+<script src="script.js">const menuToggle = document.getElementById('mobile-menu');
+    const navLinks = document.querySelector('.nav-links');
+    
+    menuToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });</script>
+</html>

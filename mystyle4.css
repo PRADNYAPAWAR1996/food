@@ -1,0 +1,86 @@
+.topnav input[type=text] {
+    border: 1px solid #ccc;  
+    align-items: center;
+    margin-left: 40%;
+    width:75%;
+    height:30px;
+    margin-right: -300px;
+    margin-top: 100px;
+  }
+  #d2{background-color: #efeff5;}
+  .navbar {
+  overflow: hidden;
+  background-color:wheat;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-top: 200px;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color:black;
+  margin-left: 200px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20%;
+}
+
+.navbar a:hover {
+  background: white;
+  color: black;
+}
+
+.navbar a.active {
+  background-color:white;
+  color: orange;
+}
+#myVideo {
+margin-left: 400px;
+    right: 0;
+    bottom: 0;
+    min-width: 30%; 
+    min-height: 30%;
+  }
+  
+   
+  #myBtn {
+    width: 25%;
+    font-size: 20%;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+  @media (max-width: 768px) {
+    #d1{
+      width: 100%;
+    }
+    video{
+      position: absolute;
+      margin-left: -180px;
+      margin-bottom: 50px;
+    }
+    .topnav{
+      margin-top: 220px;
+      margin-left: -50px;
+    }
+    #d2{
+      border: 1px solid black;
+      margin-left: -10px;
+      height: 30px;
+      margin-top: 200px;
+    }
+    #i1{
+      margin-left: -250px;
+      margin-top: -100px;
+    }
+  }

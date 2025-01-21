@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Split Search Bar</title>
+    <link rel="stylesheet" href="styles6.css">
+</head>
+<body>
+    <!-- Hero Section with Image -->
+    <section class="hero"><nav class="navbar">
+        <div class="logo">MyWebsite</div>
+        <button class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <header class="hero">
+        <img src="d:\zomato\zomato main img.webp" alt="Hero Image" class="hero-image">
+        <div class="hero-text">
+            <h1>Zomato</h1>
+            <p>Your tagline or slogan goes here.</p>
+        </div>
+    </header>
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>Find What You Need</h1>
+            <div class="search-bar">
+                <input type="text" id="search" placeholder="Search...">
+                <input type="text" id="location" placeholder="Location...">
+                <button type="submit" onclick="submitSearch()">Search</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js">function submitSearch() {
+        const search = document.getElementById('search').value;
+        const location = document.getElementById('location').value;
+        if (search && location) {
+            console.log(`Searching for "${search}" in "${location}"`);
+            // You can add the logic here to send the search data somewhere, for example, to an API or another page.
+        } else {
+            alert('Please fill out both fields.');
+        }
+    }</script>
+</body>
+</html>
